@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    font-size: 16px;
+}
+
+.sidebar {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url("images/kanashi-BLW_KQ0Rkn0-unsplash.jpg");
+    background-size: cover;
+}
+
+.logo-container {
+    flex: 1;
+    margin-top: 80px;
+}
+
+.logo-sidebar {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    color:white;
+    background-color: black;
+    opacity: 0.3;
+}
+
+.side-footer {
+   text-align: center;
+}
+
+.main-box {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    flex: 1.3;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-end;
+    row-gap: 20px;
+    background-color: lightgrey;
+    font-size: 1.8rem;
+}
+
+.header-ending {
+    margin-bottom: 30px;
+}
+
+.form-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+#register {
+    flex: 1;
+}
+
+.submit-section {
+    flex: 1.3;
+    background-color: lightgrey;
+}
+
+header > *, .form-section > *, .submit-section > * {
+    margin-left: 50px;
+    margin-right: 250px;
+}
+
+
