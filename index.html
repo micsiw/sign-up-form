@@ -20,23 +20,45 @@
             <p class="header-ending">You <em>know</em> you want to.</p>
         </header>
         <div class="form-section">
-            <p>Let's do this!</p>
+            <p class="intro">Let's do this!</p>
             <form action="" method="get" id="register">
-                <label for="first-name">FIRST NAME</label>
-                <input type="text" id="first-name" name="first-name">
-                <label for="last-name">LAST NAME</label>
-                <input type="text" id="last-name" name="last-name">
-                <label for="email">EMAIL</label>
-                <input type="email" id="email" name="email">
-                <label for="phone">PHONE NUMBER</label>
-                <input type="tel" id="phone" name="phone">
-                <label for="password">PASSWORD</label>
-                <input type="password" id="password" name="password">
-                <label for="password-confirm">CONFIRM PASSWORD</label>
-                <input type="password" id="password-confirm" name="password-confirm">
+                <div class="section">
+                    <div class="form-box">
+                        <label for="first-name">FIRST NAME</label>
+                        <input type="text" id="first-name" name="first-name">
+                    </div>
+                    <div class="form-box">
+                        <label for="last-name">LAST NAME</label>
+                        <input type="text" id="last-name" name="last-name">
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="form-box">
+                        <label for="email">EMAIL</label>
+                        <input type="email" id="email" name="email">
+                    </div>
+                    <div class="form-box">
+                        <label for="phone">PHONE NUMBER</label>
+                        <input type="tel" id="phone" name="phone">
+                    </div>
+                </div>
+                <div class="section">
+                    <div class="form-box">
+                        <label for="password">PASSWORD</label>
+                        <input type="password" id="password" name="password">
+                    </div>
+                    <div class="form-box">
+                        <label for="password-confirm">CONFIRM PASSWORD</label>
+                        <input type="password" id="password-confirm" name="password-confirm">
+                    </div>
+                </div>
             </form>
         </div>
-        <div class="submit-section">Buttons here</div>
+        <div class="submit-section">
+            <button type="submit" form="register">Create account</button>
+            <span>Already have an account? <a href="">Log in</a></span>
+            <span class="footer"><p>Created by Michal Siwanowicz</p></span>
+        </div>
     </div>
 </body>
 </html>

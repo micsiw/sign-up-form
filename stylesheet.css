@@ -51,7 +51,7 @@ header {
     align-items: flex-start;
     justify-content: flex-end;
     row-gap: 20px;
-    background-color: lightgrey;
+    background-color: #FDFBFC;
     font-size: 1.8rem;
 }
 
@@ -63,20 +63,94 @@ header {
     flex: 1;
     display: flex;
     flex-direction: column;
+    background-color: #F8F4F3;
+    position: relative;
+    box-shadow: rgba(99, 99, 99, 0.6) 0px 2px 8px 0px;
+}
+
+p.intro {
+    margin-top: 15px;
+}
+
+input {
+    width: 300px;
+    height: 25px;
+    box-sizing: border-box;
 }
 
 #register {
     flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.section {
+    display: flex;
+    align-items: center;
+    flex: 1;
+    gap: 20px;
+}
+
+.form-box {
+    display: flex;
+    flex-direction: column;
 }
 
 .submit-section {
     flex: 1.3;
-    background-color: lightgrey;
+    display: flex;
+    flex-direction: column;
+    background-color: #FDFBFC;
 }
+
+button {
+    background-color: #62BAD2;
+    border-radius: 8px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 14px;
+    height: 40px;
+    width: 200px;
+    line-height: 20px;
+    list-style: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    outline: none;
+    padding: 10px 16px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    transition: color 100ms;
+    vertical-align: baseline;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+}
+    
+    button:hover,
+    button:focus {
+      background-color: #81c2d4;
+    }
+
+a {
+    color: #62BAD2;
+    text-decoration: none;
+    font-weight: 600;
+}
+
 
 header > *, .form-section > *, .submit-section > * {
     margin-left: 50px;
     margin-right: 250px;
 }
 
+.footer {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
 
