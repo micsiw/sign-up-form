@@ -6,13 +6,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign up</title>
     <link rel="stylesheet" href="stylesheet.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prata&display=swap" rel="stylesheet">
 </head>
 <body>
     <div class="sidebar">
         <div class="logo-container">
-            <div class="logo-sidebar">Logo here</div>
+            <div class="logo-sidebar">
+                <img src="images/turkish-angora.png" alt="cat logo" id="logo">
+                <span id="logo-text">Morris</span>
+            </div>
         </div>
-        <div class="side-footer">Photo credits</div>
+        <div class="side-footer">Photo by <a href="https://unsplash.com/@kanashi">Kanashi</a> from Unsplash</div>
     </div>
     <div class="main-box">
         <header><p>This is not a real online service! You know you need something like this in your life
@@ -25,31 +31,31 @@
                 <div class="section">
                     <div class="form-box">
                         <label for="first-name">FIRST NAME</label>
-                        <input type="text" id="first-name" name="first-name">
+                        <input type="text" id="first-name" name="first-name" required>
                     </div>
                     <div class="form-box">
                         <label for="last-name">LAST NAME</label>
-                        <input type="text" id="last-name" name="last-name">
+                        <input type="text" id="last-name" name="last-name" required>
                     </div>
                 </div>
                 <div class="section">
                     <div class="form-box">
                         <label for="email">EMAIL</label>
-                        <input type="email" id="email" name="email">
+                        <input type="email" id="email" name="email" required>
                     </div>
                     <div class="form-box">
                         <label for="phone">PHONE NUMBER</label>
-                        <input type="tel" id="phone" name="phone">
+                        <input type="tel" id="phone" name="phone" minlength="9" required>
                     </div>
                 </div>
                 <div class="section">
                     <div class="form-box">
                         <label for="password">PASSWORD</label>
-                        <input type="password" id="password" name="password">
+                        <input type="password" id="password" name="password" required>
                     </div>
                     <div class="form-box">
                         <label for="password-confirm">CONFIRM PASSWORD</label>
-                        <input type="password" id="password-confirm" name="password-confirm">
+                        <input type="password" id="password-confirm" name="password-confirm" required>
                     </div>
                 </div>
             </form>
